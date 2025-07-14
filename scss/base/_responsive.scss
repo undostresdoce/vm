@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+    margin: 1rem auto;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .footer {
+    padding: 1rem;
+    margin-top: 30px;
+    height: auto;
+  }
+
+  .product-card__image {
+    height: 140px;
+  }
+
+  .catalog__filter {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .contact__form {
+    padding: 0.5rem;
+  }
+
+  .product-detail__image {
+    height: auto;
+    max-height: 200px;
+  }
+}
