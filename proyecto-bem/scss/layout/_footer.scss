@@ -1,0 +1,24 @@
+.footer {
+  background-color: $color-primary-dark;
+  padding: 20px;
+  height: 100px;
+  margin-top: 50px;
+  color: $color-white;
+  text-align: center;
+
+  &__social {
+    @include flex-center;
+    gap: $spacing-sm;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  &__text {
+    font-size: rem(14);
+    opacity: 0.8;
+  }
+}

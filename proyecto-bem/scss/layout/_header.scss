@@ -1,0 +1,31 @@
+.header {
+  background-color: $color-primary;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 50px;
+}
+
+.nav__list {
+  display: flex;
+  gap: $spacing-sm;
+  list-style: none;
+}
+
+.nav__link {
+  color: $color-white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: $spacing-sm;
+  @include transition(background-color);
+
+  &--active,
+  &:hover {
+    background-color: $color-primary-dark;
+    border-radius: 4px;
+  }
+}
